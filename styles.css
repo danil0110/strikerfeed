@@ -220,10 +220,6 @@ footer img {
 }
 
 @font-face {
-// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
-font-family: "Futura-Normal"; 
-// адрес шрифта и тип 
-src: url("fonts/Futura-Normal.ttf") format("truetype"); 
-font-style: normal; 
-font-weight: normal; 
-} 
+    font-family: Futura-Normal; /* Имя шрифта */
+    src: url(fonts/Futura-Normal.ttf); /* Путь к файлу со шрифтом */
+   }
